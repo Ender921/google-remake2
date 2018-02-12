@@ -1,0 +1,19 @@
+#main {
+  margin-top: 250px;
+}
+
+#logo-container, #search-container {
+  text-align: center;
+  justify-content: center;
+}
+
+#logo {
+  display: inline;
+  height: 100px;
+  padding-bottom: 20px;
+}
+
+#search-bar {
+  display: inline;
+  width: 200px;
+}
