@@ -13,20 +13,24 @@
 
 <body>
   <div id="header">
-    <ul>
-      <li id="header-element">About</li>
-      <li id="header-element">Store</li>
-      <li id="header-element" text-align="right">Gmail</li>
-      <li id="header-element" text-align="right">ICON</li>
-      <a href="#"><li id="header-element">SIGN IN</li></a>
-    </ul>
+      <a href="#">About</a>
+      <a href="#">Store</a>
+    <div id="header-right">
+      <a href="#">Gmail</a>
+      <a href="#">ICON</a>
+      <a href="#"><button id="signin">Sign In</button></a>
+    </div>
   </div>
   <div id="main">
     <div id="logo-container">
       <img id="logo" src="google.png" height="100px" />
     </div>
     <div id="search-container">
-      <input type="search" name="Search" id="search-bar">
+      <input type="text" name="Search" id="search-bar"/>
+    </div>
+    <div id="search-btns">
+      <a href="#"><button id="search-btn">Google Search</button></a>
+      <a href="#"><button id="search-btn">I'm feeling lucky</button></a>
     </div>
   </div>
 </body>

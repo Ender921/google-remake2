@@ -1,5 +1,5 @@
 #main {
-  margin-top: 250px;
+  padding-top: 250px;
 }
 
 #logo-container, #search-container {
@@ -15,5 +15,45 @@
 
 #search-bar {
   display: inline;
+  width: 450px;
+  height: 30px;
+}
+
+#header {
+  height: 50px;
+}
+
+#header a {
+  padding: 20px;
+  text-align: center;
+  font-family: roboto;
+  float: left;
+  text-decoration: none;
+}
+
+#header-right {
+  float: right;
+}
+
+#signin {
+  margin-top: -5px;
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  height: 25px;
+}
+
+#search-btns {
+  text-align: center;
+  justify-content: center;
+}
+
+#search-btn {
+  margin-top: 20px;
+  padding: 10px;
   width: 200px;
+  background-color: #F3F3F3;
+  color: #757575;
+  font-family: roboto;
 }
